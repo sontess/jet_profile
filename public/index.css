@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-1 img {
+    border-radius: 45%;
+    width: 25%;
+    height: 20%;
+    margin-left: 55%;
+    
+}
+h3{
+    padding-left: 10%;
+}
+body{
+    font-family: 'Sriracha', cursive;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.column2{
+    column-count: 2;
+    
+}
+.button{
+    display: inline-block;
+    border: 2px solid rgb(60, 161, 192);
+    padding: 10px 35px;
+    color: rgb(22, 19, 9);
+    background:rgb(233, 180, 101);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+}
+
+.button:hover{
+    background: rgb(81, 223, 157);
+    color: #000;
+}
+.text-1{
+    padding-left: 5%;
+}
+.text-2{
+    padding-left: 40%;
+    
+}
+
+.info{
+    text-align: center;
+}

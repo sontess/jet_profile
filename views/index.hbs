@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+        <h1>portfolio</h1>
+    
+    <div class="column2">
+        <div class="img-1">
+            <img src="img/1.jpg" alt="">
+        </div>
+
+        <div class="img-2">
+            {{#with myData.aboutme}}
+            <h2> <u>ข้อมูลส่วนตัว</u></h2>
+            <p><b>FullName:</b> {{FullName}} </p>
+            <p><b>Lastname:</b> {{Lastname}} </p>
+            <p><b>Birthdate:</b> {{Birthdate}} </p>
+            <p><b>Phone:</b> {{Phone}} </p>
+            <p><b>Email:</b>{{Email}} </p>
+            <p><b>Address:</b>{{Address}} </p>
+
+           
+
+        </div>
+    </div>
+
+    <div class="text-1">
+        <h3> <u>ประวัติการศึกษา</u></h3>
+        <p><b> education:</b> {{education}} </p>
+        <p><b>lowersecondaryschool:</b> {{lowersecondaryschool}} </p>
+        <p><b>uppersecondaryschool:</b> {{uppersecondaryschool}} </p>
+
+
+    </div>
+     {{/with}}
+    <div class="text-2">
+
+        <a class="button" href="/profile/skill">Skill </a>
+
+    </div>
+</body>
+
+</html>
